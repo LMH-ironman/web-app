@@ -153,7 +153,7 @@ img{ max-width: 100%; display: block; }
     radial-gradient(900px 600px at 78% 28%, rgba(139,92,246,.24), transparent 60%),
     radial-gradient(900px 600px at 55% 80%, rgba(255,179,0,.16), transparent 62%),
     linear-gradient(180deg, rgba(11,18,32,.20), rgba(11,18,32,.92)),
-    url("/images/market-nasdaq.svg");
+    url("/images/hero-market.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(1.15) contrast(1.12);
@@ -164,7 +164,7 @@ img{ max-width: 100%; display: block; }
     radial-gradient(900px 600px at 78% 28%, rgba(45,226,255,.18), transparent 62%),
     radial-gradient(900px 600px at 58% 80%, rgba(139,92,246,.18), transparent 62%),
     linear-gradient(180deg, rgba(11,18,32,.20), rgba(11,18,32,.92)),
-    url("/images/crypto-btc.svg");
+    url("/images/hero-btc.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(1.18) contrast(1.12);
