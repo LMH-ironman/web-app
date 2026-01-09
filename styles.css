@@ -149,7 +149,7 @@ img{ max-width: 100%; display: block; }
     radial-gradient(900px 600px at 20% 20%, rgba(102,224,255,.18), transparent 60%),
     radial-gradient(900px 600px at 80% 30%, rgba(139,92,246,.20), transparent 60%),
     linear-gradient(180deg, rgba(11,18,32,.25), rgba(11,18,32,.92)),
-    url("/images/mountain.jpg");
+    url("/images/candles.svg");
   background-size: cover;
   background-position: center;
   filter: saturate(1.05) contrast(1.05);

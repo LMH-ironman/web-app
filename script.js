@@ -29,7 +29,7 @@
   }
 
   // Active link highlight
-  const sectionIds = ["about", "services", "advantages", "risk", "process", "contact"];
+  const sectionIds = ["about", "services", "contact"];
   const links = new Map();
   document.querySelectorAll('.site-nav a[href^="#"]').forEach((a) => {
     const href = a.getAttribute("href") || "";
