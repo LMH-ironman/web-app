@@ -1,14 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>公司介绍｜深圳市众海引擎信息技术有限公司</title>
+    <meta
+      name="description"
+      content="深圳市众海引擎信息技术有限公司公司介绍：业务方向、方法论与合作方式。"
+    />
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-</head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
 
-<body>
-    <h1>About</h1>
-</body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="./index.html" aria-label="返回首页">
+          <img class="brand-logo" src="./images/logo.png" alt="众海引擎 Logo" />
+          <div class="brand-text">
+            <div class="brand-name">深圳市众海引擎信息技术有限公司</div>
+            <div class="brand-tagline">量化交易 · 资产管理</div>
+          </div>
+        </a>
 
+        <nav class="site-nav" aria-label="主导航">
+          <a href="./index.html#services">业务方向</a>
+          <a href="./index.html#risk">风控与合规</a>
+          <a class="nav-cta" href="./index.html#contact">联系我们</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>公司介绍</h2>
+            <p>聚焦量化交易与资产管理，提供模块化的技术服务与系统能力建设。</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <h3>我们是谁</h3>
+              <p>
+                <strong>深圳市众海引擎信息技术有限公司</strong> 面向机构合作，提供投研、策略研发、交易执行与风险管理等模块化服务。
+              </p>
+              <p class="muted">
+                说明：本页面为企业信息展示。具体合作内容、边界与交付物以双方沟通与协议为准。
+              </p>
+            </div>
+
+            <div class="card card-accent">
+              <h3>方法论</h3>
+              <ul class="bullets">
+                <li><strong>先定义约束</strong>：风险预算、敞口边界、交易成本与容量假设</li>
+                <li><strong>再做研究验证</strong>：稳健性检验、样本外、敏感性与压力测试</li>
+                <li><strong>最后工程化落地</strong>：监控告警、复盘机制、版本迭代与回滚策略</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>合作方式（示例）</h2>
+            <p>可按模块组合：投研、策略、执行、风控、运营与报表。</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3>投研支持</h3>
+              <p class="muted">共同制定研究目标与检验框架，输出因子/信号与组合建议及归因分析。</p>
+            </div>
+            <div class="card">
+              <h3>系统建设</h3>
+              <p class="muted">回测/仿真/实盘监控体系搭建，接口对接、权限审计、告警与运维方案。</p>
+            </div>
+            <div class="card">
+              <h3>运营与持续迭代</h3>
+              <p class="muted">围绕指标与复盘闭环持续优化：交易成本、稳定性、容量与风险表现。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>重要提示</h2>
+            <p>我们重视风险提示与合规边界。</p>
+          </div>
+          <div class="card">
+            <p class="muted">
+              本网站与页面内容不构成投资建议、收益承诺或要约邀请。任何历史表现不代表未来结果。投资有风险，入市需谨慎。
+            </p>
+            <a class="text-link" href="./index.html#contact">返回首页并联系 →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img class="footer-logo" src="./images/logo.png" alt="众海引擎 Logo" />
+          <div>
+            <div class="footer-name">深圳市众海引擎信息技术有限公司</div>
+            <div class="footer-muted">量化交易 · 资产管理</div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <a href="./index.html">返回首页</a>
+          <span class="footer-sep">·</span>
+          <span class="footer-muted">© <span id="year"></span> All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
